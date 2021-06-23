@@ -1,10 +1,10 @@
+/* eslint-disable */
 import './App.css';
+import QuoteBox from './Components/QuoteBox';
 
 function App() {
   return (
-    <div id="quote-box" className="App">
-      <h1 class="text-danger">Mon application !!!!!</h1>
-    </div>
+    <QuoteBox />
   );
 }
 
