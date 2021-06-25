@@ -1,15 +1,21 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#quote-box {
+  background-color: aquamarine;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#text {
+  background-color: coral;
+}
+
+#author {
+  background-color: darkgoldenrod;
+}
+
+#new-quote {
+  background-color: greenyellow;
+}
+
+#tweet-quote {
+  background-color: blue;
 }
