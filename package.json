@@ -2,7 +2,7 @@
   "name": "random-quote-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cyrilgourgouillon.github.io/randome-quote-machine",
+  "homepage": "https://cyrilgourgouillon.github.io/random-quote-machine",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^5.14.1",
