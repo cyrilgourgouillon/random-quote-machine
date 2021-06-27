@@ -30,6 +30,7 @@ const QuoteBox = () => {
         <div id="author"><i class="fas fa-angle-right"></i> {author}</div>
         <button type="button" id="new-quote" className="btn btn-dark" onClick={handleNewQuoteClick}><i class="fas fa-sync-alt"></i></button>
         <a id="tweet-quote" href={`https://www.twitter.com/intent/tweet?text=${quote} from ${author}`} target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>
+        <div>Made by <a href="https://github.com/cyrilgourgouillon" target="_blank">Cyril Gourgouillon</a></div>
       </div>
     </div>
   );
