@@ -1,21 +1,43 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/fontawesome.min.css';
+@import '~@fortawesome/fontawesome-free/css/brands.min.css';
+@import '~@fortawesome/fontawesome-free/css/solid.min.css';
+
+
+body {
+  background-color: #343A40;
+
+}
+
+#main-container {
+  height: 100px;
+}
 
 #quote-box {
-  background-color: aquamarine;
+  color: white;
+  margin: auto;
+  width: 50%;
+}
+
+.quote-text {
+  color: white;
 }
 
 #text {
-  background-color: coral;
+  color: #536162;
 }
 
 #author {
-  background-color: darkgoldenrod;
+  color: #E5E5E5;
+  font-style: italic;
+  font-size: small;
+  text-align: right;
 }
 
 #new-quote {
-  background-color: greenyellow;
+  width: 100%;
 }
 
 #tweet-quote {
-  background-color: blue;
+  color: white;
 }
