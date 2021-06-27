@@ -10,7 +10,7 @@ body {
 }
 
 #main-container {
-  height: 100px;
+  height: 100vh;
 }
 
 #quote-box {

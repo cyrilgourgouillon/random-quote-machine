@@ -24,9 +24,9 @@ const QuoteBox = () => {
   }, []);
 
   return (
-    <div id="main-container" className=".d-flex align-items-center justify-content-center">
+    <div id="main-container" className="d-flex align-items-center">
       <div id="quote-box">
-        <div id="text"><i class="fas fa-quote-left"></i><span class="quote-text"> {quote} </span> <i class="fas fa-quote-right"></i></div>
+        <div id="text"><i class="fas fa-quote-left"></i><span class="quote-text"> {quote} </span><i class="fas fa-quote-right"></i></div>
         <div id="author"><i class="fas fa-angle-right"></i> {author}</div>
         <button type="button" id="new-quote" className="btn btn-dark" onClick={handleNewQuoteClick}><i class="fas fa-sync-alt"></i></button>
         <a id="tweet-quote" href={`https://www.twitter.com/intent/tweet?text=${quote} from ${author}`} target="_blank" rel="noreferrer"><i class="fab fa-twitter-square"></i></a>
